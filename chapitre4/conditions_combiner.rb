@@ -3,7 +3,7 @@ if a != 12 && a != 10
 	puts "Okay!"
 end
 
-C est un "et" logique
+	#C est un "et" logique
 
 
 
@@ -13,7 +13,7 @@ if a == 12 || a == 10
 	puts "Okay!"
 end
 
-C est un "ou" car si c est 12 ou 10 la reponse sera ok
+	#C est un "ou" car si c est 12 ou 10 la reponse sera ok
 
 
 
@@ -24,7 +24,7 @@ if (a == 12 || a == 10) && a != "hello"
 end
 
 
-On peux faire plus compliquer comme la a est egal a 12 ou 10 et surtout pas a hello
+	#On peux faire plus compliquer comme la a est egal a 12 ou 10 et surtout pas a hello
 
 
 
