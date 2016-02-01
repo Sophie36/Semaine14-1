@@ -6,7 +6,7 @@ end
 mon_utilisateur = Utilisateur.new
 puts mon_utilisateur
 
-        "Donne accès à un objet utilisateur mais ne sais pas encore quoi en faire"
+    #Donne accès à un objet utilisateur mais ne sais pas encore quoi en faire
         
         
 
@@ -24,7 +24,7 @@ mon_utilisateur.nom = "Lenon"
 puts mon_utilisateur.prenom
 puts mon_utilisateur.nom
 
-        "ou"
+    #ou
         
 class Utilisateur
 	attr_accessor :prenom, :nom
@@ -37,7 +37,7 @@ bob.nom = "Lenon"
 
 puts bob.prenom + " " + bob.nom
 
-        "On simplifie car maintenant on a bien la classe d'abord"
+    #On simplifie car maintenant on a bien la classe d'abord
 
 
 
@@ -60,8 +60,8 @@ jane.nom = "Lenon"
 
 puts jane.prenom
 
-        "J ai instancier deux objets dans la classe Utilisateur et 
-        on peut en rajouter de la mienne maniere que les classes exemple"
+    #J ai instancier deux objets dans la classe Utilisateur et 
+    #on peut en rajouter de la mienne maniere que les classes exemple
         
         
         
