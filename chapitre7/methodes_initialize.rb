@@ -52,3 +52,24 @@ jane = Utilisateur.new("Jane")
 puts alice.prenom
 puts bob.prenom
 puts jane.prenom
+
+
+#méthode initialize pour plusieurs fonctions :
+class Utilisateur
+	attr_accessor :prenom
+	
+	def initialize(prenom, sexe)
+		if sexe == "f"
+			@prenom = "Madame " + prenom
+		else
+			@prenom = "Monsieur " + prenom
+		end
+	end
+end
+
+alice = Utilisateur.new("Alice", "f")
+bob = Utilisateur.new("Bob", "h")
+jane = Utilisateur.new("Jane", "f")
+puts alice.prenom
+puts bob.prenom
+puts jane.prenom
